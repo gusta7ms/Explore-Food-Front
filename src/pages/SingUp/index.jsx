@@ -1,4 +1,6 @@
 import { Container, From } from "./styled";
+import { useNavigate } from "react-router-dom";
+
 import LogoImg from "../../assets/hex.svg";
 
 import { Input } from "../../components/Input";
@@ -6,6 +8,12 @@ import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
 
 export function SingUp() {
+  const navigate = useNavigate();
+
+  function handleBack() {
+    navigate(-1);
+  }
+
   return (
     <Container>
       <div>
@@ -35,8 +43,8 @@ export function SingUp() {
         />
 
         <Button title="Cadastro" />
-        <ButtonText title="Já tenho uma Conta" />
 
+        <ButtonText title="Já tenho uma Conta" onClick={handleBack} />
       </From>
     </Container>
   );

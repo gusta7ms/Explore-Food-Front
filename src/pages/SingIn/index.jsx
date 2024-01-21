@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router-dom";
 import { Container, From } from "./styled";
+
 import LogoImg from "../../assets/hex.svg";
 
 import { Input } from "../../components/Input";
@@ -6,6 +8,12 @@ import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
 
 export function SingIn() {
+  const navigate = useNavigate();
+
+  function handleBack() {
+    navigate("/register");
+  }
+
   return (
     <Container>
       <div>
@@ -29,8 +37,7 @@ export function SingIn() {
         />
 
         <Button title="Entrar" />
-        <ButtonText title="Criar Conta" />
-
+        <ButtonText title="Criar Conta" onClick={handleBack} />
       </From>
     </Container>
   );
