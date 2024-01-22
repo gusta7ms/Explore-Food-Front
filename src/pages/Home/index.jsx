@@ -1,9 +1,11 @@
 import { Container } from "./styled.js";
 
-export function Home(){
+import { Header } from "../../components/Header";
+
+export function Home() {
   return (
     <Container>
-     
+      <Header />
     </Container>
-  )
+  );
 }

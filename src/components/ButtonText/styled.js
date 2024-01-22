@@ -8,4 +8,9 @@ export const Container = styled.button`
   font-weight: 500;
 
   border: none;
+
+  svg {
+    height: 24px;
+    width: 24px;
+  }
 `

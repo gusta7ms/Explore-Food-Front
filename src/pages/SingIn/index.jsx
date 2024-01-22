@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import { Container, From } from "./styled";
+import { useNavigate } from "react-router-dom";
 
-import LogoImg from "../../assets/hex.svg";
+import LogoImg from "../../assets/Logo.svg";
 
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
@@ -16,10 +16,8 @@ export function SingIn() {
 
   return (
     <Container>
-      <div>
-        <img src={LogoImg} alt="" />
-        <h1>Food Explore</h1>
-      </div>
+      <img src={LogoImg} alt="Logo Food Explore" />
+
 
       <From>
         <span>Faça o seu login</span>

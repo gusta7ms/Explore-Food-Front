@@ -10,27 +10,13 @@ export const Container = styled.div`
   padding: 90px 110px;
 
   color: ${({ theme }) => theme.LIGHT.Light_100};
-  div {
-    display: flex;
-    align-items: center;
 
-    h1 {
-      font-size: 2.625rem;
-      font-weight: 700;
-    }
-
-    img {
-      margin-right: 1.25rem;
-    }
+  img {
+    margin-right: 24px;
   }
+
   @media (max-width: ${DEVICE_BREAKPOINT.LG}) {
     padding: 40px 50px;
-
-    div {
-      h1 {
-        font-size: 2rem;
-      }
-    }
   }
 
   @media (max-width: ${DEVICE_BREAKPOINT.MD}) {
@@ -38,11 +24,20 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    div {
+    img {
+      height: 44px;
+    }
+  }
 
-      h1 {
-        font-size: 1.5rem;
-      }
+  @media (max-width: ${DEVICE_BREAKPOINT.SM}) {
+    img {
+      height: 36px;
+    }
+  }
+
+  @media (max-width: ${DEVICE_BREAKPOINT.XS}) {
+    img {
+      height: 30px;
     }
   }
 `;
