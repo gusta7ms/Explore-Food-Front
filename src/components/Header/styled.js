@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { DEVICE_BREAKPOINT } from "../../styles/deviceBreakpoints";
 export const Container = styled.header`
-  grid-area: "header";
+  grid-area: header;
 
   display: flex;
   align-items: center;
@@ -19,7 +19,11 @@ export const Container = styled.header`
   }
 
   img {
-    height: 40px;
+    height: 28px;
+  }
+
+  .Search {
+    width: 100%;
   }
 
   .buttonOrdersDesktop {
@@ -39,6 +43,7 @@ export const Container = styled.header`
     img {
       height: 24px;
     }
+
     .buttonOrdersDesktop {
       width: 9.625rem;
       font-size: 12px;
@@ -50,7 +55,7 @@ export const Container = styled.header`
     padding: 24px 70px;
 
     img {
-      height: 24px;
+      height: 22px;
     }
   }
 
@@ -66,7 +71,7 @@ export const Container = styled.header`
     }
 
     img {
-      height: 24px;
+      height: 22px;
     }
 
     .buttonSingOut {
@@ -85,3 +90,4 @@ export const Container = styled.header`
     }
   }
 `;
+
