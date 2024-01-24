@@ -1,10 +1,12 @@
-import {Container} from "./styled"
+import { Container } from "./styled";
 
-export function Slider(){
+import { Card } from "../Card";
+
+export function Slider() {
+
   return (
     <Container>
-      
-
+      <Card/>
     </Container>
-  )
+  );
 }
