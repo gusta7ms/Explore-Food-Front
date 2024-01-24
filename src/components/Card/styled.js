@@ -3,6 +3,9 @@ import { DEVICE_BREAKPOINT } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
   position: relative;
+  width: 304px;
+
+  padding: 0 1.4rem;
 
   display: flex;
   flex-direction: column;
@@ -10,10 +13,11 @@ export const Container = styled.div`
   text-align: center;
 
   color: ${({ theme }) => theme.LIGHT.Light_100};
-  width: 304px;
-  padding: 0 1.4rem;
 
-  background-color: ${({ theme }) => theme.DARK.Dark_200};
+  border-radius: 8px;
+
+  /* background-color: ${({ theme }) => theme.DARK.Dark_200}; */
+  background-color: ${({ theme }) => theme.DARK.Dark_900};
 
   .favButton {
     position: absolute;
@@ -29,7 +33,7 @@ export const Container = styled.div`
 
   img {
     margin-top: 24px;
-    height: 176px;
+    height: 11rem;
     width: 100%;
     object-fit: contain;
     border-radius: 50%;
@@ -44,6 +48,8 @@ export const Container = styled.div`
     font-size: 24px;
     font-weight: 700;
 
+    white-space: nowrap;
+
     width: 100%;
     padding: 15px 0;
 
@@ -54,7 +60,7 @@ export const Container = styled.div`
 
   p {
     color: ${({ theme }) => theme.LIGHT.Light_400};
-    font-size: .875rem;
+    font-size: 0.875rem;
 
     width: 100%;
 
@@ -62,7 +68,7 @@ export const Container = styled.div`
   }
 
   h4 {
-    font-size: 32px;
+    font-size: 2rem;
     color: ${({ theme }) => theme.TINTS.Cake_100};
     font-weight: 400;
     width: 100%;
@@ -89,30 +95,87 @@ export const Container = styled.div`
   .addDishes {
     width: 96px;
   }
-
-  @media (max-width: ${DEVICE_BREAKPOINT.SM}) {
-  width: 250px;
+  @media (max-width: ${DEVICE_BREAKPOINT.LG}) {
+    width: 268px;
 
     img {
-      height: 88px;
+      height: 9.625rem;
     }
 
     p {
-      display:none;
+      font-size: 0.75rem;
     }
 
     h4 {
       padding-top: 0;
-      font-size:1rem ;
+      font-size: 1.75rem;
     }
 
-    .controlsDishes{
+    .controlsDishes {
       flex-direction: column;
       gap: 15px;
     }
 
     .addDishes {
-    width: 100%;
+      width: 100%;
+    }
   }
+
+  @media (max-width: ${DEVICE_BREAKPOINT.MD}) {
+    width: 271.6px;
+
+    img {
+      height: 8.25rem;
+    }
+
+    p {
+      display: none;
+    }
+
+    h4 {
+      padding-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .controlsDishes {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: ${DEVICE_BREAKPOINT.SM}) {
+    width: 260.8px;
+
+    img {
+      height: 6.875rem;
+    }
+
+    h4 {
+      padding-top: 0;
+      font-size: 1.25rem;
+    }
+
+    .controlsDishes {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: ${DEVICE_BREAKPOINT.XS}) {
+    width: 250px;
+
+    img {
+      height: 5.5rem;
+    }
+
+    h4 {
+      padding-top: 0;
+      font-size: 1rem;
+    }
+
+    .controlsDishes {
+      flex-direction: column;
+      gap: 15px;
+    }
   }
 `;

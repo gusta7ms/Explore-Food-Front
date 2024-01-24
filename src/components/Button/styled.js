@@ -15,7 +15,7 @@ height: 48px;
 
   width: 100%;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
 
   &:hover {
     opacity: 0.8;

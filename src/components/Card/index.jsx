@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Container } from "./styled.js";
 import { useState } from "react";
 
@@ -5,12 +6,13 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 import { TbArrowBadgeRight } from "react-icons/tb";
 import { GoHeart, GoHeartFill } from "react-icons/go";
 
-import FoodOne from "../../assets/food_disc_1.png";
-
 import { Button } from "../Button";
 import { ButtonText } from "../ButtonText";
 
-export function Card({...rest}) {
+export function Card({data, ...rest}) {
+  // eslint-disable-next-line no-unused-vars
+  const { id, category, name, description, value, img } = data;
+
   const [quantity, setQuantity] = useState(1);
   const [fav, setFav] = useState(true);
 
@@ -38,15 +40,15 @@ export function Card({...rest}) {
         )}
       </div>
 
-      <img src={FoodOne} alt="Foto do prato de Comida" />
+      <img src={img} alt="Foto do prato de Comida" />
       <ButtonText
         className="nameDish"
-        title="Prato 1"
+        title={name}
         icon={TbArrowBadgeRight}
       />
 
-      <p>Lorem ipsum, dolor sit abet consectetur adipisicing edit.</p>
-      <h4>R$ 100,50</h4>
+      <p>{description}</p>
+      <h4>R$ {value}</h4>
 
       <div className="controlsDishes">
         <div className="numberDishes">
