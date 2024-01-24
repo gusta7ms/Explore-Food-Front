@@ -46,9 +46,6 @@ export const Container = styled.div`
 
     font-size: 24px;
     font-weight: 700;
-
-    white-space: nowrap;
-
     width: 100%;
     padding: 15px 0;
 

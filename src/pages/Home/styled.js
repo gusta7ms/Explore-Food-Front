@@ -11,6 +11,12 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.DARK.Dark_400};
 `;
 export const Content = styled.main`
+  margin-top:5rem ;
+
+  img {
+    width: 100%;
+    margin-bottom:50px;
+  }
   grid-area: content;
 
   height: auto;
@@ -26,5 +32,10 @@ export const Content = styled.main`
 
   @media (max-width: 866px) {
     padding: 28px 20px;
+  }
+  @media (max-width: ${DEVICE_BREAKPOINT.MD}) {
+    img {
+      display: none;
+    }
   }
 `;

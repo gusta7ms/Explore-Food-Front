@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { DEVICE_BREAKPOINT } from "../../styles/deviceBreakpoints";
 export const Container = styled.header`
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
   grid-area: header;
 
   display: flex;
@@ -8,9 +12,9 @@ export const Container = styled.header`
   justify-content: space-between;
   gap: 32px;
 
-  width: auto;
+  width: 100%;
+  height: 5rem;
   background-color: ${({ theme }) => theme.DARK.Dark_600};
-  height: 100%;
 
   padding: 24px 100px;
 
