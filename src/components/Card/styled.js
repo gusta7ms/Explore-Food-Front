@@ -16,8 +16,7 @@ export const Container = styled.div`
 
   border-radius: 8px;
 
-  /* background-color: ${({ theme }) => theme.DARK.Dark_200}; */
-  background-color: ${({ theme }) => theme.DARK.Dark_900};
+  background-color: ${({ theme }) => theme.DARK.Dark_200};
 
   .favButton {
     position: absolute;
