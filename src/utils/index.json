@@ -1,0 +1,449 @@
+[
+  {
+    "id": 1,
+    "category": "vegan",
+    "name": "Risoto de cogumelos",
+    "description": "Arroz cremoso com cogumelos, um prato italiano reconfortante.",
+    "value": 17.99,
+    "img": "/src/assets/img/foods/food_disc_01.png",
+    "tags": [
+      "Arroz",
+      "Cogumelos",
+      "Caldo de Legumes",
+      "Alho",
+      "Cebola",
+      "Arroz",
+      "Cogumelos",
+      "Caldo de Legumes",
+      "Alho",
+      "Cebola",
+      "Vinho Branco"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "vegan",
+    "name": "Frango à parmigiana",
+    "description": "Peito de frango empanado, molho de tomate e queijo gratinado.",
+    "value": 19.99,
+    "img": "/src/assets/img/foods/food_disc_02.png",
+    "tags": [
+      "Frango",
+      "Farinha de Rosca",
+      "Tomate",
+      "Queijo",
+      "Manjericão",
+      "Azeite"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "meals",
+    "name": "Espaguete à carbonara",
+    "description": "A símplice idade italiana em cada garfada.",
+    "value": 14.99,
+    "img": "/src/assets/img/foods/food_disc_03.png",
+    "tags": [
+      "Espaguete",
+      "Ovos",
+      "Queijo Parmesão",
+      "Paneta",
+      "Alho",
+      "Pimenta Preta"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "meals",
+    "name": "Salmão grelhado",
+    "description": "Saboroso salmão grelhado, realçado por um molho fresco de limão.",
+    "value": 22.99,
+    "img": "/src/assets/img/foods/food_disc_04.png",
+    "tags": ["Salmão", "Limão", "Alho", "Azeite", "Coentro", "Sal"]
+  },
+  {
+    "id": 5,
+    "category": "meals",
+    "name": "Feijoada",
+    "description": "Clássico brasileiro com feijão, carne de porco e linguiça.",
+    "value": 18.99,
+    "img": "/src/assets/img/foods/food_disc_05.png",
+    "tags": [
+      "Feijão Preto",
+      "Carne de Porco",
+      "Linguiça",
+      "Arroz",
+      "Cebola",
+      "Alho"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "meals",
+    "name": "Paella de frutos do mar",
+    "description": "Arroz dourado, frutos do mar e açafrão em uma explosão espanhola.",
+    "value": 26.99,
+    "img": "/src/assets/img/foods/food_disc_06.png",
+    "tags": [
+      "Arroz",
+      "Frutos do Mar",
+      "Açafrão",
+      "Pimentão",
+      "Alho",
+      "Caldo de Peixe"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "meals",
+    "name": "Lasanha à bolonhesa",
+    "description": "Camadas de massa, carne moída e queijo, assadas à perfeição.",
+    "value": 16.99,
+    "img": "/src/assets/img/foods/food_disc_07.png",
+    "tags": [
+      "Massa de Lasanha",
+      "Carne Moída",
+      "Queijo",
+      "Molho de Tomate",
+      "Alho",
+      "Manjericão"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "meals",
+    "name": "Curry de frango",
+    "description": "Frango em um molho aromático de curry e especiarias.",
+    "value": 20.99,
+    "img": "/src/assets/img/foods/food_disc_08.png",
+    "tags": [
+      "Frango",
+      "Leite de Coco",
+      "Curry em Pó",
+      "Cebola",
+      "Alho",
+      "Gengibre"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "meals",
+    "name": "Tacos de carne com guacamole",
+    "description": "Tortilhas recheadas com carne e guacamole fresco.",
+    "value": 14.99,
+    "img": "/src/assets/img/foods/food_disc_09.png",
+    "tags": ["Carne", "Tortilhas", "Guacamole", "Tomate", "Cebola", "Coentro"]
+  },
+  {
+    "id": 10,
+    "category": "meals",
+    "name": "Salada de quinoa",
+    "description": "Quinoa leve com vegetais assados, uma opção saudável e deliciosa.",
+    "value": 15.99,
+    "img": "/src/assets/img/foods/food_disc_10.png",
+    "tags": [
+      "Quinoa",
+      "Vegetais Assados",
+      "Tomate",
+      "Abobrinha",
+      "Azeite",
+      "Limão"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "desserts",
+    "name": "Torta de Morango",
+    "description": "Camadas de massa crocante, recheio cremoso de morango fresco.",
+    "value": 15.99,
+    "img": "/src/assets/img/desserts/food_disc_01.png",
+    "tags": [
+      "Morango",
+      "Massa",
+      "Açúcar",
+      "Creme de Leite",
+      "Gelatina",
+      "Baunilha"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "desserts",
+    "name": "Brownie Gourmet",
+    "description": "Brownie denso, nozes crocantes, cobertura de chocolate amargo.",
+    "value": 12.5,
+    "img": "/src/assets/img/desserts/food_disc_02.png",
+    "tags": ["Chocolate", "Nozes", "Farinha", "Açúcar", "Ovos", "Manteiga"]
+  },
+  {
+    "id": 13,
+    "category": "desserts",
+    "name": "Pavê de Chocolate",
+    "description": "Camadas alternadas de biscoitos e creme de chocolate aveludado.",
+    "value": 14.75,
+    "img": "/src/assets/img/desserts/food_disc_03.png",
+    "tags": [
+      "Chocolate",
+      "Biscoitos",
+      "Creme de Leite",
+      "Leite Condensado",
+      "Açúcar",
+      "Baunilha"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "desserts",
+    "name": "Cheesecake Frutas Vermelhas",
+    "description": "Cheesecake cremoso com calda de frutas vermelhas frescas.",
+    "value": 18.99,
+    "img": "/src/assets/img/desserts/food_disc_04.png",
+    "tags": [
+      "Cream Cheese",
+      "Frutas Vermelhas",
+      "Açúcar",
+      "Ovos",
+      "Geleia",
+      "Biscoito"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "desserts",
+    "name": "Sorvete de Baunilha",
+    "description": "Sorvete cremoso de baunilha, servido com calda de caramelo.",
+    "value": 8.5,
+    "img": "/src/assets/img/desserts/food_disc_05.png",
+    "tags": [
+      "Baunilha",
+      "Leite",
+      "Creme de Leite",
+      "Açúcar",
+      "Ovos",
+      "Caramelo"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "desserts",
+    "name": "Mousse de Maracujá",
+    "description": "Mousse leve e aerada, com o sabor tropical do maracujá.",
+    "value": 10.75,
+    "img": "/src/assets/img/desserts/food_disc_06.png",
+    "tags": [
+      "Maracujá",
+      "Leite Condensado",
+      "Creme de Leite",
+      "Açúcar",
+      "Gelatina",
+      "Limão"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "desserts",
+    "name": "Creme Brole",
+    "description": "Creme de baunilha delicado, coberto com uma camada caramelizada crocante.",
+    "value": 16.5,
+    "img": "/src/assets/img/desserts/food_disc_07.png",
+    "tags": [
+      "Creme de Leite",
+      "Açúcar",
+      "Ovos",
+      "Baunilha",
+      "Caramelo",
+      "Raspas de Limão"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "desserts",
+    "name": "Tiramisu Clássico",
+    "description": "Camadas de biscoitos de café, mascarpone e cacau polvilhado.",
+    "value": 13.99,
+    "img": "/src/assets/img/desserts/food_disc_08.png",
+    "tags": [
+      "Biscoitos de Café",
+      "Mascarpone",
+      "Ovos",
+      "Açúcar",
+      "Cacau",
+      "Café Forte"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "desserts",
+    "name": "Pudim de Leite",
+    "description": "Pudim suave e cremoso, coberto com calda de caramelo.",
+    "value": 9.25,
+    "img": "/src/assets/img/desserts/food_disc_09.png",
+    "tags": [
+      "Leite",
+      "Ovos",
+      "Açúcar",
+      "Leite Condensado",
+      "Baunilha",
+      "Caramelo"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "desserts",
+    "name": "Cupcake Red Velvet",
+    "description": "Cupcake de veludo vermelho, coberto com cream cheese frosting.",
+    "value": 7.99,
+    "img": "/src/assets/img/desserts/food_disc_10.png",
+    "tags": [
+      "Farinha de Trigo",
+      "Cacau",
+      "Açúcar",
+      "Ovos",
+      "Buttermilk",
+      "Cream Cheese"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Drinks",
+    "name": "Margarita Clássica",
+    "description": "Tequila, licor de laranja, suco de limão e sal na borda.",
+    "value": 10.99,
+    "img": "/src/assets/img/drinks/cocktail_disc_01.png",
+    "tags": [
+      "Tequila",
+      "Licor de Laranja",
+      "Suco de Limão",
+      "Sal",
+      "Gelo",
+      "Cointreau"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Drinks",
+    "name": "Martini de Maçã",
+    "description": "Vodka de maçã, licor de maçã verde, agitado, não mexido.",
+    "value": 12.5,
+    "img": "/src/assets/img/drinks/cocktail_disc_02.png",
+    "tags": [
+      "Vodka de Maçã",
+      "Licor de Maçã Verde",
+      "Gelo",
+      "Maçã",
+      "Xarope Simples",
+      "Limão"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Drinks",
+    "name": "Moito Refrescante",
+    "description": "Rum branco, hortelã, açúcar, suco de limão e água com gás.",
+    "value": 11.75,
+    "img": "/src/assets/img/drinks/cocktail_disc_03.png",
+    "tags": [
+      "Rum Branco",
+      "Hortelã",
+      "Açúcar",
+      "Suco de Limão",
+      "Água com Gás",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Drinks",
+    "name": "Pina Colada",
+    "description": "Rum, creme de coco, suco de abacaxi, batido com gelo.",
+    "value": 14.99,
+    "img": "/src/assets/img/drinks/cocktail_disc_04.png",
+    "tags": [
+      "Rum",
+      "Creme de Coco",
+      "Suco de Abacaxi",
+      "Gelo",
+      "Abacaxi",
+      "Cereja"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Drinks",
+    "name": "Negro Clássico",
+    "description": "Gin, vermute tinto e Campai, finalizado com uma casca de laranja.",
+    "value": 16.5,
+    "img": "/src/assets/img/drinks/cocktail_disc_05.png",
+    "tags": [
+      "Gin",
+      "Vermute Tinto",
+      "Campai",
+      "Casca de Laranja",
+      "Bebida",
+      "Aperitivo"
+    ]
+  },
+
+  {
+    "id": 26,
+    "category": "Drinks",
+    "name": "Caipirinha Brasileira",
+    "description": "Cachaça, limão, açúcar e gelo, uma explosão de sabor tropical.",
+    "value": 9.75,
+    "img": "/src/assets/img/drinks/cocktail_disc_06.png",
+    "tags": ["Cachaça", "Limão", "Açúcar", "Gelo", "Brasileiro", "Cítrico"]
+  },
+
+  {
+    "id": 27,
+    "category": "Drinks",
+    "name": "Whiskey Sour",
+    "description": "Bourbon, xarope simples, suco de limão, com cereja de garniture.",
+    "value": 13.5,
+    "img": "/src/assets/img/drinks/cocktail_disc_07.png",
+    "tags": [
+      "Bourbon",
+      "Xarope Simples",
+      "Suco de Limão",
+      "Cereja",
+      "Whiskey",
+      "Sour"
+    ]
+  },
+
+  {
+    "id": 28,
+    "category": "Drinks",
+    "name": "Gin Tônica",
+    "description": "Gin, água tônica, fatia de limão e zimbro, refrescante e clássico.",
+    "value": 10.99,
+    "img": "/src/assets/img/drinks/cocktail_disc_08.png",
+    "tags": ["Gin", "Água Tônica", "Limão", "Zimbro", "Refrescante", "Clássico"]
+  },
+
+  {
+    "id": 29,
+    "category": "Drinks",
+    "name": "Blue Lagoon",
+    "description": "Vodka, curaçao azul, limonada, com um toque de doçura.",
+    "value": 12.25,
+    "img": "/src/assets/img/drinks/cocktail_disc_09.png",
+    "tags": ["Vodka", "Curaçao Azul", "Limonada", "Doce", "Refrescante", "Azul"]
+  },
+  {
+    "id": 30,
+    "category": "Drinks",
+    "name": "Espresso Martini",
+    "description": "Vodka, licor de café, café expresso, agitado e servido gelado.",
+    "value": 15.99,
+    "img": "/src/assets/img/drinks/cocktail_disc_10.png",
+    "tags": [
+      "Vodka",
+      "Licor de Café",
+      "Café Expresso",
+      "Gelado",
+      "Café",
+      "Agitado"
+    ]
+  }
+]

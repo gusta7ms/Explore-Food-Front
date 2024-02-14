@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import itensData from "../../utils/data"
+import itensData from "../../utils"
 
 import { Card } from "../Card";
 
