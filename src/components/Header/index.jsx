@@ -26,7 +26,7 @@ export function Header() {
       </div>
 
       <Button
-        title={`Novo pedido(${numberOrders})`}
+        title={`Pedidos (${numberOrders})`}
         icon={PiReceipt}
         className="buttonOrdersDesktop"
       />
